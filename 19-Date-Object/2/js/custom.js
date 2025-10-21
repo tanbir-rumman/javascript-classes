@@ -1,0 +1,21 @@
+"use strict";
+
+let newTimeDate = new Date();
+let DateTime = newTimeDate.toTimeString();
+console.log(DateTime);
+let locaTime = newTimeDate.toLocaleTimeString();
+console.log(locaTime);
+let localDates = newTimeDate.toDateString();
+console.log(localDates);
+let getDate = newTimeDate.getDate();
+console.log(getDate);
+let getTime = newTimeDate.getTime();
+console.log(getTime);
+let getHours = newTimeDate.getHours();
+console.log(getHours);
+let getMinuts = newTimeDate.getMinutes();
+console.log(getMinuts);
+let getSeconds = newTimeDate.getSeconds();
+console.log(getSeconds);
+let getMiliSeconds = newTimeDate.getMilliseconds();
+console.log(getMiliSeconds);

@@ -1,0 +1,47 @@
+21-class Array কি হয়?
+
+উত্তরঃ js এ Array খুব ই প্রয়জনিয় এটিকে আমরা একটা বক্স এর মত মনে মনে করতে পারি,  
+এর মাধ্যে আমরা চাইলে এক সাথে অনেক গুলো নাম এক সাথে রাখতে পারি, 
+এই array এর ব্যাবহারে অনেক গুলো method রয়েছে নিচে কিছু method দেয়া হলো
+
+let newArrys = ["Rumman", "Araf", "Tanbir", "Khalid", "Tanjib"];
+এখানে একটি array declear করা হলো , এখন নিচের method গুলোর মাধ্যমে বিভিন্ন্য কাজ করে দেখানো হলো
+
+console.log(newArrys.indexOf("Khalid"));
+
+এটির মাধ্যমে একটি arraye এর ভ্যালু কত তম পজিশনে রয়েছে সেটি জানা জায় ,
+
+newArrys[5] = "Bangladesh";
+এটির মাধ্যমে একটি array এর শেষের দিকে একটি ভ্যালু যোগ হয়,
+
+newArrys.push("Hello");
+এটির মাধ্যমে একটি array এর শেষের দিকে একটি ভ্যালু যোগ হয়,
+console.log(newArrys)
+
+newArrys.pop();
+এটির মাধ্যমে একটি array এর শেষের দিকে একটি ভ্যালু কাটা হয়,
+console.log(newArrys);
+
+newArrys.unshift("Hello");
+এটির মাধ্যমে একটি array এর শুরুর দিকে একটি ভ্যালু যোগ হয়,
+console.log(newArrys);
+
+newArrys.shift();
+এটির মাধ্যমে একটি array এর শুরুর দিকে একটি ভ্যালু কাটা হয়,
+console.log(newArrys);
+
+let newMake = newArrys.slice(3, 2);
+এটির মাধ্যমে একটি array এর থেকে যেকোনো একটি বা অনেক গুলো ভ্যালু নিয়ে নতুন একটি array তৈরি করা হয়,
+console.log(newMake);
+
+newArrys.splice(3, 4, "KKKKK", "tttttt");
+এখানে দেখানো হয়েছে 3, 4, "KKKKK" , "tttttt"
+এর মানে হলো 3 , 4 এই নাম্বারের ভ্যালু গুলো কেটে সেখানে "KKKKK" , "tttttt" এই নামের ভ্যালু গুলো 
+প্রবেশ করাও,
+
+এটির মাধ্যমে একটি array এর থেকে যেকোনো একটি বা অনেক গুলো ভ্যালু কেটে 
+আবার তার মধ্যে অন্য নতুন ভ্যালু রেখে দেয়া যায় 
+newArrys.splice(3, 0, "Hello", "Bangladesh");
+এখানে বলা হয়েছে 3, 0, মানে হলো কোনো ভ্যালু না কেটে ,
+"Hello", "Bangladesh" এই নতুন একটি ভ্যালু গুলো এর মধ্যে প্রবেশ করাও 
+console.log(newArrys);
