@@ -1,0 +1,2 @@
+symbol() সব সময় নতুন id বা নতুন reference তৈরি করে 
+যধি তার মধ্যে content একই হয় তাও সে সব সময় id বা নতুন reference তৈরি করে 

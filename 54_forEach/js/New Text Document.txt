@@ -1,0 +1,44 @@
+
+CLASS 54 forEach()
+
+এটি আমার সম্পুর্ন কোড
+let soneNames = ["Tanjib", "Ahmed", "Araf", "khalid", "Asem"];
+
+soneNames.forEach((names) => {
+    console.log(names);
+});
+
+এইবার কোডের বিশ্লেষণ
+
+js প্রথমে দেখলো একটা array তৈরি করা হলো 
+let soneNames = ["Tanjib", "Ahmed", "Araf", "khalid", "Asem"]; 
+
+এর পরে js নিচে এসে দেখল একটি  
+
+soneNames.forEach((names) => {
+    console.log(names);
+}); 
+
+soneNames কে নিয়ে একটি   forEach লুপ এর মধ্যে একটি function চালানো হয়েছে , 
+এর মানে হলো উপরে যে array রয়েছে সেখান থেকে একটি করে ভ্যালু নিয়ে এসে forEach এর মধ্যে থাকা names কে দেয়া
+এবার এই names আরো একটি কাজ করে আর তা হলো forEach এর মধ্য যে function চালানো হয়েছে 
+তার parameter হিসেবেও কাজ করে , মানে forEach যখন soneNames এর থেকে ভ্যালু এনে names এর মধে দেয়
+এখন এই names তার মধ্যে থাকা ভ্যালু গুলো নিয়ে function এর মধ্যে parameter হিসেবে কাজ করে 
+এবং সেটি ই আমরা console.log(names) করে তার ভ্যালু দেখতে পারি
+
+আমরা যধি এই সকল ভ্যালু গুলোর index number দেখতে চাই , তাহলে forEach এর মধ্যে names এর পাসে একটি কমা দিয়ে 
+তার পাসে index কে বসিয়ে দিতে হবে 
+তার পরে সেই  names কে console এ দেয়ার সময় তার পাসেই index লিখে দিলেই হবে
+
+যেমন
+soneNames.forEach((names,index) => {
+    console.log(names, index);
+}); 
+
+এই ভাবে
+
+
+
+
+
+
