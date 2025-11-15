@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>js</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body onload="pageLoad()">
+        <div class="content">
+            <h2 class="Fun">😀 Javascript Is Fun 😀</h2>
+            <!-- <button id="btn1" onmouseout="changeText()">Subscribe</button> -->
+            <!-- <button id="btn1" onmouseenter="changeText()">Subscribe</button> -->
+            <!-- <button id="btn1" oncontextmenu="changeText()">Subscribe</button> -->
+            <!-- <button id="btn1" ondblclick="changeText()">Subscribe</button> -->
+            <button id="btn1" onclick="changeText()">Subscribe</button>
+
+            <h2 id="showText"></h2>
+        </div>
+
+        <div class="make-from">
+            <form action="" id="form" method="post" onkeypress="keypressd()">
+                <!-- <form action="" id="form" method="post" onkeydown="keypressd()"> -->
+                <!-- <form action="" id="form" method="post" onkeypress="keypressd()"> -->
+                <label for="user-name">Name</label>
+                <input
+                    type="text"
+                    id="user-name"
+                    name="name"
+                    placeholder="Enter Your Name"
+                />
+
+                <label for="email">email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="user-email"
+                    placeholder="Enter Your email"
+                />
+
+                <label for="user-Text">message</label>
+                <textarea
+                    name="messege"
+                    id="user-Text"
+                    cols="30"
+                    placeholder="Enter Your Message"
+                ></textarea>
+                <button type="submit" id="sig-nup" value="sending">send</button>
+            </form>
+        </div>
+
+        <script src="js/custom.js"></script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.content .Fun {
+    margin-bottom: 10px;
+}
+
+.content #btn1, #sig-nup {
+    background: red;
+    padding: 10px 20px;
+    border-radius: 5PX;
+    font-size: 18px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+.content #btn1:hover, #sig-nup:hover {
+    background-color: #0a0a3d;
+    color: #fff;
+}
+
+form {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(to right, #00802056, #007c80) ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+input , textarea{
+    width: 90%;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none
+}
+
+
+:focus {
+    outline: 1px solid #ff000060;
+}
+
+#sig-nup {
+    width: 95%;
+}
+
