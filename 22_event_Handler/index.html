@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>javascript</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body id="body" onresize="body1()">
+        <br />
+
+        <div class="test-area">
+            <!-- 
+            --------------------------
+            MOUSE EVENT AREA 
+            --------------------------
+             -->
+
+            <h2>javascript test area</h2>
+            <button id="btn-test">click</button>
+            <button id="Enter">Mouse Enter</button>
+            <button id="out">Enter and Out</button>
+            <h2 id="text-show"></h2>
+            <h2 id="text-show2"></h2>
+            <h2 id="text-show3"></h2>
+        </div>
+        <!-- 
+            --------------------------
+            MOUSE EVENT AREA  END
+            --------------------------
+             -->
+
+        <!-- form area -->
+        <div class="form-area" id="form">
+            <form action="#" id="form">
+                <label for="first-name">First Name</label>
+                <input
+                    type="text"
+                    name="name"
+                    id="first-name"
+                    placeholder="Enter Your First Name"
+                />
+
+                <label for="last-name">Last Name</label>
+                <input
+                    type="text"
+                    name="name"
+                    id="last-name"
+                    placeholder="Enter Your Last Name"
+                />
+                <label for="mail">Email</label>
+                <input
+                    type="email"
+                    name="e-mail"
+                    id="mail"
+                    placeholder="Enter Email"
+                />
+
+                <label for="sms">Message</label>
+                <textarea
+                    name="message"
+                    id="sms"
+                    placeholder="message"
+                ></textarea>
+                <button type="reset">Reset</button>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+
+        <script src="js/custom.js"></script>
+    </body>
+</html>
