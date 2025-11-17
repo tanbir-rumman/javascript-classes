@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.test-area {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.test-area h2 {
+    margin-bottom: 10px;
+    
+}
+
+.test-area #btn-test, .test-area #btn-test2 {
+    padding: 10px 20px;
+    font-size: 20px;
+    background: #a0272783;
+}
+
+.test-area #btn-test , .test-area #btn-test2 , .test-area  #Enter, .test-area #out {
+    padding: 10px 30px;
+    margin: auto;
+    font-size: 22px;
+    background: #a0272783;
+    display: block;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.test-area #btn-test:hover, .test-area #btn-test2:hover, .test-area #Enter:hover, .test-area #out:hover{
+    background: #7e2727;
+    border-radius: 10px;
+    transform: scale(1.03)
+}
+
+/* BUTTON AREA END */
+/* FORM AREA STAR*/
+
+.form-area {
+    width: 30%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    background: #63046636 ;
+}
+
+.form-area #form {
+    padding: 20px;
+}
+
+.form-area #form input, .form-area #form textarea {
+
+    display: block ;
+    width: 100%;
+    padding:  15px 0px;
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.form-area #form input:hover, .form-area #form textarea:hover {
+    transform: scale(1.02);
+    border-radius: 10px;
+    
+}
+
+.form-area #form label {
+    width: 97%;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.form-area > #form > button {
+    padding: 10px 30px;
+    width: 100%;
+    font-size: 22px;
+    background: #a0272783;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-area > #form > button:hover {
+    background: #7e2727;
+    border-radius: 10px;
+    transform: scale(1.03)
+    
+}
+
+:focus {
+    outline: 1px solid red;
+}
