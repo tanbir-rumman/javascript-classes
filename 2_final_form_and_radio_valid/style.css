@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #85a8d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formArea {
+    width: 35%;
+    background: #fff;
+}
+
+.formArea #form {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 0px 25px -5.5px #011732;
+    /* height: 550px; */
+}
+
+.formArea #form h2   {
+    text-align: center;
+}
+
+.formArea #form .formContorl label {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.formArea #form .formContorl input {
+    display: block;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 10px 5px #577ba6;
+    overflow: hidden;
+}
+
+.formArea #form .formContorl input:hover {
+    transform: scaleX(1.05);
+    box-shadow: 0px 0px 8px 5px #0763d3;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+.formArea #form .formContorl.error input {
+    box-shadow: 0px 0px 10px 5px red;
+}
+
+.formArea #form .formContorl.success input {
+    box-shadow: 0px 0px 10px 5px #07d329;
+}
+
+.formArea #form .formContorl small {
+    color: red;
+    visibility: hidden;
+    display: inline-block;
+}
+
+.formArea #form .formContorl.error small{
+    visibility: visible;
+}
+
+.formArea .submit {
+    width: 95%;
+    margin: auto;
+}
+
+.formArea .submit button {
+    width: 100%;
+    margin-top: 5px;
+    padding: 3px 0px;
+    background: #3d74b8;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.formArea .submit button:hover {
+    transform: scale(1.03);
+    border-radius: 10px;
+}

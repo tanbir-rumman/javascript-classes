@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="formArea">
+            <form action="#" id="form" method="dialog">
+                <h2>Form Validation</h2>
+                <div class="formContorl">
+                    <label for="userName">User Name: *</label>
+                    <input
+                        type="text"
+                        name="name"
+                        id="userName"
+                        placeholder="Enter Your Name"
+                    />
+                    <small>error message</small>
+                </div>
+
+                <div class="formContorl">
+                    <label for="email"> Email: * </label>
+                    <input
+                        type="text"
+                        name="email"
+                        id="email"
+                        placeholder="Enter Email"
+                    />
+                    <small>error message</small>
+                </div>
+
+                <div class="formContorl">
+                    <label for="password"> password: * </label>
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Enter password"
+                    />
+                    <small>error message</small>
+                </div>
+
+                <div class="formContorl">
+                    <label for="password2"> password: *</label>
+                    <input
+                        type="password"
+                        name="password2"
+                        id="password2"
+                        placeholder="Confirm password"
+                    />
+                    <small>error message</small>
+                </div>
+
+                <div class="formRadioContorl">
+                    <p class="selectmessage">Select Gender:</p>
+                    <p id="errorShow" style="color: red"></p>
+                    <p id="showValue"></p>
+
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="male" id="male" />
+                    <label for="female">Female</label>
+                    <input
+                        type="radio"
+                        name="gender"
+                        value="female"
+                        id="female"
+                    />
+                </div>
+                <div class="submit">
+                    <button type="submit">submit</button>
+                    <button type="reset">reset</button>
+                </div>
+            </form>
+        </div>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
