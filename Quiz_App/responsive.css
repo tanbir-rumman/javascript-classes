@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 450px) {
+    .quiz-area{
+        background-image: linear-gradient(to left ,#b8f8b8a9, #67b7f894);
+        font-size: 22px;
+        }
+    button{
+        width: 100%;
+        background: #fda31c;
+        padding: 10px 0px; 
+        margin-bottom: -20px;
+        font-size: 26px;
+        
+    }  
+
+    p {
+        font-size: 25px;
+    }
+}
