@@ -1,0 +1,16 @@
+@media only screen and (max-width: 450px) {
+
+    #form {
+        font-size: 32px;
+        background-image: linear-gradient(to left top, #00177cd1, #004f65da);
+        padding: 5px;
+    }
+
+    button{
+        background: #6b4b00;
+        width: 80%;
+        font-size: 32px;
+        color: #000;
+
+    }
+}

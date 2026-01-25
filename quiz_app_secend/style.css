@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#form {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-image: linear-gradient(to left top, #05219dd1, #0189afda);
+}
+
+#form h2 {
+    margin-bottom: 10px;
+}
+
+#form p {
+    margin-bottom: 10px;
+}
+
+#form input {
+    margin-right: 10px;
+}
+
+button {
+    width: 20%;
+    padding: 5px 30px;
+    margin-bottom: -10px;
+    background-image: linear-gradient(to left top, #005f00, #6b4b00);
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-image: linear-gradient(to left top, #003d00, #382700);
+}
